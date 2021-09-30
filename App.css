@@ -1,0 +1,19 @@
+@media (prefers-reduced-motion: no-preference) {
+  .default {
+    animation: App-logo-spin infinite 20s linear;
+   
+  }
+}
+
+.default:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 11px 11px 6px gray !important;
+  transition-property: transform box-shadow !important;
+  transition-duration: 0.4s !important;
+}
+
+.default {
+    width: 400px;
+    height: 400px;
+    border: 10px solid darkblue;
+}
