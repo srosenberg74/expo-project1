@@ -5,6 +5,15 @@
   }
 }
 
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
 .default:hover {
   transform: scale(1.1) !important;
   box-shadow: 11px 11px 6px gray !important;
